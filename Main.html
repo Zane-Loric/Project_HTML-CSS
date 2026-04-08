@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Bus Travel Sewa</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 50px;
+            background: #2c3e50;
+            color: white;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: url(Logo1.jpeg) no-repeat center/cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .search-box {
+            margin-top: 20px;
+        }
+
+        .search-box input, 
+        .search-box button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+        }
+
+        .search-box button {
+            background: #e67e22;
+            color: white;
+            cursor: pointer;
+        }
+
+        .services {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .card {
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 10px;
+            width: 30%;
+        }
+
+        .routes {
+            padding: 40px;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .routes ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .service-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18v12H3V6m0 2v8h16V8H3m2 2h12v4H5v-4z"/><circle cx="7" cy="16" r="1"/><circle cx="17" cy="16" r="1"/></svg> BusGo</h1>
+            <ul class="nav-links">
+                <li><a href="https://www.bussewanepal.com/">Info</a></li>
+                <li><a href="https://www.worldometers.info/maps/nepal-road-map/">Routes</a></li>
+                <li><a href="https://www.booking.com/?chal_t=1775658929894&force_referer=">Booking</a></li>
+                <li><a href="mailto:BusSewaNepal123@gmail.com">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Travel Smart, Travel Easy</h2>
+        <p>Book bus tickets across the country</p>
+        <div class="search-box">
+            <input type="text" placeholder="From">
+            <input type="text" placeholder="To">
+            <input type="date">
+            <button>Search Buses</button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="card">
+                <h3>Online Booking</h3>
+                <p>Book tickets anytime, anywhere.</p>
+            </div>
+            <div class="card">
+                <h3>Comfort Travel</h3>
+                <p>Enjoy safe and comfortable journeys.</p>
+            </div>
+            <div class="card">
+                <h3>Affordable Prices</h3>
+                <p>Best deals for your trips.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="routes">
+        <h2>Popular Routes</h2>
+        <ul>
+            <li>Kathmandu → Pokhara</li>
+            <li>Butwal → Kathmandu</li>
+            <li>Chitwan → Pokhara</li>
+            <li>Nepalgunj → Kathmandu</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2082-2083 Nepal Bus Travel Sewa. All rights reserved</p>
+        <p>-By Rohan Paudyal</p>
+    </footer>
+
+</body>
+</html>
